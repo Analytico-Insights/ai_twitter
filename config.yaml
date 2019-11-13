@@ -1,0 +1,9 @@
+file: name.csv  #Filename for list of twitter IDs.
+config: ./twitter  #Spot for the configuration.
+data: ./data      #Filename for data.
+consumer_key: key
+consumer_secret: secret 
+access_token: access
+access_token_secret: token
+sleep_interval: 5 ## twitter api access limit Requests / 15-min window (user auth) 180 => 5 sec/request
+twitter_cutoff: 3195 #Twitter cuts off at 3195 tweets per user.
